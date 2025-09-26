@@ -1,0 +1,130 @@
+baseURL: "https://Ceaser626.github.io/" 
+title: Dr. Zhenyu Wei 
+pagination:
+  pagerSize: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Publications
+          url: papers/
+          weight: 1
+        - name: Conf & Talks
+          url: talks/
+          weight: 2
+        - name: About Me
+          url: myfile/
+        - name: Resume
+          url: CV_Zhenyu.pdf
+          weight: 3 
+        # https://pascalmichaillat.org/b/
+        # 可以再加一个code project， 参考https://marekwiewiorka.org/software/
+        # 可以再加一个博客，参考https://leloykun.github.io/personal-projects/
+        # - name: Photography
+        #   url: https://pmichaillat.substack.com
+        #   weight: 4
+
+params:
+    description: "Zhenyu Wei's professional website."
+    author: Zhenyu Wei
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "September 2025"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Zhenyu Wei
+          subtitle: |
+            Hello, this is Zhenyu!
+
+            <br>I received the **Ph.D. degree of Control Science and Engineering** from Zhejiang University, under
+            
+            the supervision of **Prof. Zhejiang Shao** and **Prof. Lorenz T. Biegler**.
+
+            <br>My research interests include **trajectory optimization**, **nonlinear model predictive control**, and **reinforcement learning**.
+          
+            <br>Don’t hesitate to reach out if you're interested in connecting, collaborating or discussing research!
+
+          imageUrl: "me.jpg"
+          imageWidth: 230
+          imageHeight: 230
+          imageTitle: Zhenyu Wei
+          buttons:
+            - name: Publications
+              url: papers/
+            # - name: Courses
+            #   url: courses/
+            # - name: Data
+            #   url: data/
+           # - name: Newsletter
+           #   url: https://pmichaillat.substack.com
+            # - name: Tags
+            #   url: tags/
+            - name: Conf & Talks
+              url: talks/
+            - name: About Me
+              url: myfile/
+            - name: Resume
+              url: CV_Zhenyu.pdf
+            #- name: Archive
+            #  url: archive/
+    socialIcons:
+        # - name: CV
+        #   url: cv_rosa.pdf
+        - name: Email
+          url: weizy@zju.edu.cn
+    
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=ltFiELoAAAAJ&hl=zh-CN
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/zhenyu-wei-0203b717a/
+        - name: GitHub
+          url: https://github.com/Ceaser626
+        - name: ResearchGate
+          url: https://www.researchgate.net/profile/Zhenyu-Wei-11?ev=hdr_xprf
+      
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Zhenyu Wei"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
