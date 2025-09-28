@@ -10,10 +10,10 @@ My name is Zhenyu Wei (魏振昱).
 I received my Ph.D. in Control Science and Engineering from Zhejiang University, where I studied Guidance & control methods under the supervision of Prof. [Zhijiang Shao](https://person.zju.edu.cn/en/zjshao#0) and visited Prof. [Lorenz T. Biegler](https://numero.cheme.cmu.edu/).
 
 Outside of research, I love photography and playing the badminton. Feel free to check out this [website](https://500px.com.cn/weizy) for a few snapshots of my photography work!
-
+<!-- 
 You’ll find my CV below.
 
-+ [Download CV](/CV_Zhenyu.pdf)
++ [Download CV](/CV_Zhenyu.pdf)-->
 
 <!--+ [Download Resume](/Resume0629.pdf)-->
 ##### EDUCATION
