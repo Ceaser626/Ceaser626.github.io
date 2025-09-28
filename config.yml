@@ -20,9 +20,9 @@ menu:
           weight: 2
         - name: About Me
           url: myfile/
-        - name: Resume
-          url: CV_Zhenyu.pdf
-          weight: 3 
+        # - name: Resume
+        #   url: CV_Zhenyu.pdf
+        #   weight: 3 
         # https://pascalmichaillat.org/b/  
         # 可以再加一个code project， 参考https://marekwiewiorka.org/software/
         # 可以再加一个博客，参考https://leloykun.github.io/personal-projects/
@@ -86,8 +86,8 @@ params:
               url: talks/
             - name: About Me
               url: myfile/
-            - name: Resume
-              url: CV_Zhenyu.pdf
+            # - name: Resume
+            #   url: CV_Zhenyu.pdf
             #- name: Archive
             #  url: archive/
     socialIcons:
